@@ -8,8 +8,8 @@ import java.util.Map;
  * @author Martin
  *
  *         Dado un numero natural, retornar un Map<String, Integer> en donde:
- *         -el primer parárametro es el factor -y el segundo parametro es la
- *         potencia Ejemplo: 10 = 2^1 * 5^1 100 = 2^2 * 5^2
+          -el primer parárametro es el factor
+          -y el segundo parametro es la potencia Ejemplo: 10 = 2^1 * 5^1 100 = 2^2 * 5^2
  */
 
 public class MapPrimeNumbers {
