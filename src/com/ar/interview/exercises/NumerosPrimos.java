@@ -1,4 +1,4 @@
-package map;
+package com.ar.interview.exercises;
 
 import java.util.HashMap;
 import java.util.Map;
