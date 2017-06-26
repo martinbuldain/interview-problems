@@ -1,16 +1,19 @@
 package com.ar.interview.exercises;
 
 /**
- * 
- * @author Martin
- * 
- *         -Dado un string validar que este bien formado, tomando en cuenta los
- *         simbolos {} [] ().
+ * -Dado un string validar que este bien formado, tomando en cuenta los simbolos {} [] (). Es decir, debe estar abierto y cerrado.
  */
 
 public class ValidateStringFormat {
+	
+	public static void main(String[] args) {
+		boolean cadenaOk = validateString("asdasdas");
+		boolean cadenaNotOk = validateString("asdasdas(");
+		System.out.println(cadenaOk);
+		System.out.println(cadenaNotOk);
+	}
 
-	public boolean validateString(String word) {
+	public static boolean validateString(String word) {
 		int stackCorchetes = 0;// []
 		int stackParentesis = 0;// ()
 		int stackLlaves = 0;// {}

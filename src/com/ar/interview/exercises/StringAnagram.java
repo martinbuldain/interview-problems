@@ -4,13 +4,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Dada 2 palabras, retorna si estas cumplen con la condicion de ser anagramas.
  * 
- * @author Martin
- * 
- *         Anagrama
  */
 
 public class StringAnagram {
+	
+	public static void main(String[] args) {
+		boolean anagramOk = anAnagram("amor", "roma");
+		boolean anagramNotOk = anAnagram("amor", "rom");
+		System.out.println(anagramOk);
+		System.out.println(anagramNotOk);
+	}
+	
 	public static boolean anAnagram(String word, String anagram) {
 		if (word.length() != anagram.length())
 			return false;

@@ -1,9 +1,6 @@
 package com.ar.interview.exercises;
 
 /**
- * 
- * @author Martin
- * 
  * 	Escribir un programa que imprima a pantalla los números del 1 al 100, uno en cada línea, pero:
 	- Si el número es múltiplo de 3, en lugar del número hay que imprimir “Coca”.
 	- Si el número es múltiplo de 5, en lugar del número hay que imprimir “Cola”.

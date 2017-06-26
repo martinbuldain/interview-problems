@@ -4,14 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 
- * @author Martin
+ * Dado un número entero natural, ésta clase calcula el factorial de numeros primos y los retorna en base elevado a la potencia correspondiente
+ * dentro de una estructura Map<Integer, Integer>. Solucion 2
  *
- *         Dado un numero natural, retornar un Map<String, Integer> en donde:
-          -el primer parárametro es el factor
-          -y el segundo parametro es la potencia Ejemplo: 10 = 2^1 * 5^1 100 = 2^2 * 5^2
  */
-
 public class MapPrimeNumbers {
 
 	public static void main(String[] args) {

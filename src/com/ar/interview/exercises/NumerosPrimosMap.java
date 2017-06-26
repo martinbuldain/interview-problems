@@ -5,30 +5,24 @@ import java.util.Map;
 
 /**
  * Dado un número entero natural, ésta clase calcula el factorial de numeros primos y los retorna en base elevado a la potencia correspondiente
- * dentro de una estructura Map<Integer, Integer>.
+ * dentro de una estructura Map<Integer, Integer>. Solucion 1
  *
  */
-public class NumerosPrimos {
+public class NumerosPrimosMap {
 	
 	public static void main(String[] args) {
 		Map<Integer, Integer> map = primeFactors(44);
 
 		System.out.println("Numeros primos de 44");
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey().toString() + "^" + entry.getValue());
-        }
+		map.forEach((k, v) -> System.out.println(k + "^" + v));
         
         System.out.println("Numeros primos de 3");
         map = primeFactors(3);
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-        	System.out.println(entry.getKey().toString() + "^" + entry.getValue());
-        }
+        map.forEach((k, v) -> System.out.println(k + "^" + v));
         
         System.out.println("Numeros primos de 32");
         map = primeFactors(32);
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-        	System.out.println(entry.getKey().toString() + "^" + entry.getValue());
-        }
+        map.forEach((k, v) -> System.out.println(k + "^" + v));
     }
 
 	public static Map<Integer, Integer> primeFactors(int number) {
