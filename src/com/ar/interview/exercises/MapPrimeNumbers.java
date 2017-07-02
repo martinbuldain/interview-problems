@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * Dado un número entero natural, ésta clase calcula el factorial de numeros primos y los retorna en base elevado a la potencia correspondiente
- * dentro de una estructura Map<Integer, Integer>. Solucion 2.
+ * dentro de una estructura Map<Integer, Integer>. Solucion 2
  *
  */
 public class MapPrimeNumbers {
