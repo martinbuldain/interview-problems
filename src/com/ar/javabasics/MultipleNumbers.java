@@ -1,4 +1,4 @@
-package com.ar.interview.exercises;
+package com.ar.javabasics;
 
 /**
  * 	Escribir un programa que imprima a pantalla los números del 1 al 100, uno en cada línea, pero:

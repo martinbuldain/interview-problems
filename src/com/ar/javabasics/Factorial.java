@@ -1,4 +1,4 @@
-package com.ar.interview.exercises;
+package com.ar.javabasics;
 
 /**
  * El factorial de un número se define como:

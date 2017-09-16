@@ -1,4 +1,4 @@
-package com.ar.interview.exercises;
+package com.ar.javabasics;
 
 import java.util.HashMap;
 import java.util.Map;

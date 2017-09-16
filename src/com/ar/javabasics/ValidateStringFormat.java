@@ -1,4 +1,4 @@
-package com.ar.interview.exercises;
+package com.ar.javabasics;
 
 /**
  * -Dado un string validar que este bien formado, tomando en cuenta los simbolos {} [] (). Es decir, debe estar abierto y cerrado.
